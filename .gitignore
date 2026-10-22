@@ -1,0 +1,27 @@
+# --- Pipeline outputs & captured media (large binaries; use Releases or Git LFS if sharing) ---
+*.ply
+*.splat
+*.ksplat
+*.mov
+*.MOV
+*.mp4
+*.MP4
+output_infer/
+outputs/
+
+# --- Python / notebooks ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Local tooling / editor ---
+.claude/settings.local.json
+*.lnk
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
